@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/handler.py": {
+      "runtime": "python3.9"
+    }
+  }
+}

@@ -175,7 +175,8 @@ slider.addEventListener('mousemove', (e) => {
 
 
 // Update Views
-fetch("api?action=view")
+// Update Views
+fetch("/api/handler?action=view")
     .then(res => res.json())
     .then(data => {
         document.getElementById("view-count").innerText = data.views;
@@ -184,7 +185,7 @@ fetch("api?action=view")
 
 // Like button
 document.querySelector(".likes-btn").addEventListener("click", function() {
-    fetch("api?action=like")
+    fetch("/api/handler?action=like")
         .then(res => res.json())
         .then(data => {
             document.getElementById("like-count").innerText = data.likes;
