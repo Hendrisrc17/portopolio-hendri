@@ -173,17 +173,18 @@ slider.addEventListener('mousemove', (e) => {
   slider.scrollLeft = scrollLeft - walk;
 });
 
-// --- Update Views ---
-fetch("api.php?action=view")
+
+// Update Views
+fetch("api?action=view")
     .then(res => res.json())
     .then(data => {
         document.getElementById("view-count").innerText = data.views;
         document.getElementById("like-count").innerText = data.likes;
     });
 
-// --- Klik Like ---
+// Like button
 document.querySelector(".likes-btn").addEventListener("click", function() {
-    fetch("api.php?action=like")
+    fetch("api?action=like")
         .then(res => res.json())
         .then(data => {
             document.getElementById("like-count").innerText = data.likes;
