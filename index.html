@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clean Parallax Landing</title>
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portopolio<span>Hendri</span></div>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#resume">Resume</a>
+                <a href="#proyek">Proyek</a>
+                <a href="#sertifikat">Sertifikat</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+        <main>
+        <section class="hero" id="home">
+
+            <div class="hero-bg">
+                <div class="hero-orbit parallax" data-speed="0.15"></div>
+                <div class="hero-orbit hero-orbit-2 parallax" data-speed="0.28"></div>
+                <div class="hero-orbit hero-orbit-3 parallax" data-speed="0.4"></div>
+            </div>
+
+            <div class="home-wrapper container" data-aos="fade-up">
+
+
+                <div class="home-left">
+                    <div class="flip-card home-flip">
+
+                        <!-- BACK – ANIME IMAGE -->
+                        <div class="card-back">
+                            <img src="hendri.jpg" alt="Anime">
+                        </div>
+                        <!-- FRONT – VIDEO -->
+                        <div class="card-front">
+                            <video class="profile-video" autoplay muted loop playsinline>
+                                <source src="hendri 1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="home-right">
+                    <h1 class="typing-title">
+                        <span id="typing-text"></span>
+                    </h1>
+
+                    <p class="typing-subtitle">
+                        bersemangat menciptakan solusi digital inovatif yang menggabungkan
+                        teknologi terkini.
+                    </p>
+
+                    <!-- BUTTON LETAK DI BAWAH -->
+                    <a href="#about" class="btn-started">🚀 Get Started</a>
+                </div>
+                <div class="stats-box">
+                    <span class="views"><i class="fas fa-eye"></i> <span id="view-count">0</span> views</span>
+                    <span class="likes-btn"><i class="fas fa-heart"></i> <span id="like-count">0</span> likes</span>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="section section-split" id="about">
+            <div class="container split-inner">
+
+                <div class="split-text" data-aos="fade-right">
+                    <p class="section-kicker">About Me</p>
+                    <h2>Tentang Saya</h2>
+
+                    <p>
+                        Hy, Saya Hendri, seorang pengembang yang berfokus pada:
+                        Artificial Intelligence, Web Development, Appliction Development, serta 
+                        Computer Network Engineering. Dengan kombinasi kemampuan teknis 
+                        dan kreativitas desain, saya selalu bersemangat menciptakan solusi digital 
+                        yang modern, efisien, dan berdampak nyata.
+                    </p>
+
+                    <p>
+                        Sejak SMK hingga perguruan tinggi, saya aktif mengikuti dunia teknologi. 
+                        Saya pernah magang di bidang jaringan dan IT support, 
+                        memperoleh pengalaman langsung dalam menangani perangkat jaringan, troubleshooting, 
+                        hingga implementasi sistem. Pengalaman ini memperkuat fondasi saya dalam 
+                        pengembangan software dan sistem cerdas.
+                    </p>
+
+                    <p>
+                        Selama tiga tahun berturut-turut, saya meraih Juara Umum berkat 
+                        konsistensi akademik dan kemampuan manajemen waktu yang baik. 
+                        Saya juga aktif dalam berbagai organisasi kampus dan kegiatan ekstrakurikuler 
+                        sewaktu sekolah, khususnya di bidang Teknik Komputer & Jaringan serta 
+                        Ilmu Komputer.
+                    </p>
+
+                    <p>
+                        Saya sering berpartisipasi dalam sosialisasi, seminar teknologi, pelatihan, 
+                        hingga kompetisi IT, yang membantu memperluas wawasan sekaligus meningkatkan 
+                        kemampuan problem solving saya dalam berbagai proyek nyata.
+                    </p>
+
+                    <p>
+                        Dengan dasar pendidikan yang kuat dan keinginan untuk terus berkembang, 
+                        saya berkomitmen menghadirkan karya digital yang cerdas, elegan, dan bermanfaat 
+                        bagi banyak orang.
+                    </p>
+                </div>
+
+                <div class="split-visual" data-aos="fade-left">
+                    <div class="floating-panel card-3d">
+                        <h3>Nilai yang Saya Pegang</h3>
+                        <p>
+                            Teknologi bukan sekadar alat, dia adalah sarana untuk menciptakan dampak. 
+                            Karena itu saya membangun setiap proyek dengan fokus pada kualitas, 
+                            estetika, dan modern.
+                        </p>
+
+                        <div class="pill-row">
+                            <span class="pill">Disiplin</span>
+                            <span class="pill">Kreativitas</span>
+                            <span class="pill">Komitmen</span>
+                            <span class="pill">Leadership</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="section" id="resume">
+            <div class="container section-header" data-aos="fade-up">
+                <p class="section-kicker">Resume</p>
+                <h2>Pendidikan & Keahlian</h2>
+                <p class="section-subtitle">
+                    Ringkasan perjalanan akademik, pengalaman, dan skill saya.
+                </p>
+            </div>
+
+            <div class="container resume-grid">
+                <div class="resume-box card-3d" data-aos="fade-right">
+                    <h3 class="resume-title">🎓 Pendidikan</h3>
+
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <span class="timeline-year">2020 - 2023</span>
+                            <h4>SMK Teknik Komputer & Jaringan</h4>
+                            <p>Mempelajari jaringan komputer, perangkat keras, keamanan jaringan, dan dasar pemrograman.</p>
+                        </div>
+
+                        <div class="timeline-item">
+                            <span class="timeline-year">2023 - Sekarang</span>
+                            <h4>Mahasiswa Ilmu Komputer</h4>
+                            <p>Fokus pada Artificial Intelligence, Appliction Development dan Web Development.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="resume-box card-3d" data-aos="fade-left">
+                    <h3 class="resume-title">🏛️ Organisasi</h3>
+
+                    <div class="timeline">
+
+                        <!-- UKM SENI -->
+                        <div class="timeline-item">
+                            <span class="timeline-year">2023 - Sekarang</span>
+                            <h4>UKM Seni Sanggar Sang Surya</h4>
+                            <p>Anggota Kepengurusan — aktif dalam kegiatan seni dan pengembangan kreativitas mahasiswa.</p>
+                        </div>
+
+                        <!-- HIMAKOM -->
+                        <div class="timeline-item">
+                            <span class="timeline-year">2025 - 2026</span>
+                            <h4>Himpunan Mahasiswa Ilmu Komputer</h4>
+                            <p>Sekretaris Kepengurusan — bertanggung jawab pada administrasi, dokumentasi, dan surat-menyurat organisasi.</p>
+                        </div>
+
+                        <!-- RELAWAN TEKNOLOGI -->
+                        <div class="timeline-item">
+                            <span class="timeline-year">2025 - 2026</span>
+                            <h4>Relawan Teknologi, Komunikasi & Informasi</h4>
+                            <p>Sekretaris Kepengurusan — mengelola komunikasi internal, dokumentasi digital, dan dukungan administrasi.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="resume-box card-3d" data-aos="fade-left">
+                    <h3 class="resume-title">⚙️ Keahlian</h3>
+
+                    <div class="skill-bar">
+                        <p>HTML / CSS / JS</p>
+                        <div><span style="width: 90%"></span></div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <p>Python (AI Engineering / ML)</p>
+                        <div><span style="width: 75%"></span></div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <p>Flask / Laravel / Django</p>
+                        <div><span style="width: 80%"></span></div>
+                    </div>
+
+                    <div class="skill-bar">
+                        <p>Jaringan Komputer</p>
+                        <div><span style="width: 50%"></span></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROYEK -->
+        <section class="section" id="proyek">
+            <div class="container section-header" data-aos="fade-up">
+                <p class="section-kicker">Proyek</p>
+                <h2>Karya & Project</h2>
+                <p class="section-subtitle">
+                    Semua project asli dan dapat dibuka linknya untuk membuktikan keaslian.
+                </p>
+            </div>
+            <div class="container sertifikat-scroll">
+                <div class="project-grid">
+
+                      
+            </div>
+        </section>
+
+        <section class="section" id="sertifikat">
+            <div class="container section-header" data-aos="fade-up">
+                <p class="section-kicker">Sertifikat</p>
+                <h2>Pencapaian & Penghargaan</h2>
+                <p class="section-subtitle">
+                    Semua sertifikat ini asli, dilampirkan sesuai bakat.
+                </p>
+            </div>
+
+            <div class="container sertifikat-scroll">
+                <div class="project-grid">
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="50">
+                    <img src="gambar/IMG_8789.PNG" class="project-img" alt="Sertifikat 1">
+                    <h3>Sertifikat 1</h3>
+                    <p>Sertifikat resmi pelatihan.</p>
+                    <a href="gambar/IMG_8789.PNG" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="60">
+                    <img src="gambar/IMG_8790.PNG" class="project-img" alt="Sertifikat 2">
+                    <h3>Sertifikat 2</h3>
+                    <p>Sertifikat resmi pelatihan.</p>
+                    <a href="gambar/IMG_8790.PNG" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="70">
+                    <img src="gambar/sertifikat_pemograman python_page-0001.jpg" class="project-img" alt="Sertifikat Pemrograman Python 1">
+                    <h3>Sertifikat Pemrograman Python (1)</h3>
+                    <p>Sertifikat resmi pelatihan.</p>
+                    <a href="gambar/sertifikat_pemograman python_page-0001.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="80">
+                    <img src="gambar/sertifikat_pemograman python_page-0002.jpg" class="project-img" alt="Sertifikat Pemrograman Python 2">
+                    <h3>Sertifikat Pemrograman Python (2)</h3>
+                    <p>Sertifikat resmi pelatihan.</p>
+                    <a href="gambar/sertifikat_pemograman python_page-0002.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="90">
+                    <img src="gambar/sertifikat_pemograman python_page-0003.jpg" class="project-img" alt="Sertifikat Pemrograman Python 3">
+                    <h3>Sertifikat Pemrograman Python (3)</h3>
+                    <p>Sertifikat resmi pelatihan.</p>
+                    <a href="gambar/sertifikat_pemograman python_page-0003.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="gambar/sertifikat_dasar ai_page-0001.jpg" class="project-img" alt="Sertifikat Dasar AI 1">
+                    <h3>Sertifikat Dasar AI (1)</h3>
+                    <p>Sertifikat resmi pelatihan.</p>
+                    <a href="gambar/sertifikat_dasar ai_page-0001.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="110">
+                    <img src="gambar/sertifikat_dasar ai_page-0002.jpg" class="project-img" alt="Sertifikat Dasar AI 2">
+                    <h3>Sertifikat Dasar AI (2)</h3>
+                    <p>Sertifikat resmi pelatihan.</p>
+                    <a href="gambar/sertifikat_dasar ai_page-0002.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="120">
+                    <img src="gambar/IMG_8786.PNG" class="project-img" alt="Sertifikat 8">
+                    <h3>Sertifikat 8</h3>
+                    <p>Sertifikat resmi pelatihan.</p>
+                    <a href="gambar/IMG_8786.PNG" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <!-- CERTIFICATE 9 -->
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="130">
+                    <img src="gambar/IMG_8788.PNG" class="project-img" alt="Sertifikat 9">
+                    <h3>Sertifikat 9</h3>
+                    <p>Sertifikat resmi pelatihan.</p>
+                    <a href="gambar/IMG_8788.PNG" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="140">
+                    <img src="gambar/PIAGAM_HENDRI_page-0007.jpg" class="project-img" alt="Piagam 7">
+                    <h3>Piagam 7</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0007.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="gambar/PIAGAM_HENDRI_page-0002.jpg" class="project-img" alt="Piagam 2">
+                    <h3>Piagam 2</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0002.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="160">
+                    <img src="gambar/PIAGAM_HENDRI_page-0003.jpg" class="project-img" alt="Piagam 3">
+                    <h3>Piagam 3</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0003.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="170">
+                    <img src="gambar/PIAGAM_HENDRI_page-0004.jpg" class="project-img" alt="Piagam 4">
+                    <h3>Piagam 4</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0004.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="180">
+                    <img src="gambar/PIAGAM_HENDRI_page-0005.jpg" class="project-img" alt="Piagam 5">
+                    <h3>Piagam 5</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0005.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="190">
+                    <img src="gambar/PIAGAM_HENDRI_page-0006.jpg" class="project-img" alt="Piagam 6">
+                    <h3>Piagam 6</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0006.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="gambar/PIAGAM_HENDRI_page-0008.jpg" class="project-img" alt="Piagam 8">
+                    <h3>Piagam 8</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0008.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="210">
+                    <img src="gambar/PIAGAM_HENDRI_page-0009.jpg" class="project-img" alt="Piagam 9">
+                    <h3>Piagam 9</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0009.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="220">
+                    <img src="gambar/PIAGAM_HENDRI_page-0010.jpg" class="project-img" alt="Piagam 10">
+                    <h3>Piagam 10</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0010.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="230">
+                    <img src="gambar/PIAGAM_HENDRI_page-0011.jpg" class="project-img" alt="Piagam 11">
+                    <h3>Piagam 11</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0011.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+                <!-- CERTIFICATE TERAKHIR -->
+                <article class="project-card card-3d" data-aos="zoom-in" data-aos-delay="240">
+                    <img src="gambar/PIAGAM_HENDRI_page-0001.jpg" class="project-img" alt="Piagam 1">
+                    <h3>Piagam 1</h3>
+                    <p>Sertifikat resmi penghargaan.</p>
+                    <a href="gambar/PIAGAM_HENDRI_page-0001.jpg" target="_blank" class="project-btn">Lihat Sertifikat</a>
+                </article>
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT / CTA -->
+        <section class="section section-cta" id="contact">
+            <div class="container" data-aos="fade-up">
+                <p class="section-kicker">Hubungi</p>
+                <h2>Jika Ada Perlu</h2>
+                <p class="section-subtitle">
+                    Tinggalkan email Anda untuk terhubung lebih lanjut.
+                </p>
+
+                <form class="cta-form" action="mailto:hendri78gusiin@gmail.com" method="POST" enctype="text/plain">
+                    <div class="cta-row">
+                        <input type="email" placeholder="Enter your email" required />
+                        <button type="submit" class="btn btn-primary">Notify me</button>
+                    </div>
+                    <p class="cta-hint">jangan spam. Just clean interfaces.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© 2025 Diciptakan Hendri.</p>
+        </div>
+    </footer>
+
+    <nav class="mobile-nav">
+        <a href="#home" class="mobile-item active">
+            <i class="icon">🏠</i>
+            <span>Home</span>
+        </a>
+        <a href="#about" class="mobile-item">
+            <i class="icon">📄</i>
+            <span>About</span>
+        </a>
+        <a href="#resume" class="mobile-item">
+        <i class="icon">🎯</i>
+        <span>Resume</span>
+        </a>
+        <a href="#proyek" class="mobile-item">
+            <i class="icon">🧩</i>
+            <span>Proyek</span>
+        </a>
+        <a href="#sertifikat" class="mobile-item">
+            <i class="icon">🎓</i>
+            <span>Sertifikat</span>
+        </a>
+        <a href="#contact" class="mobile-item">
+            <i class="icon">📩</i>
+            <span>Contact</span>
+        </a>
+    </nav>
+
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Main JS -->
+    <script src="scripts.js"></script>
+</body>
+</html>
