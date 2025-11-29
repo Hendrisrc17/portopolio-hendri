@@ -17,7 +17,6 @@ def handler(request):
         data["views"] += 1
 
     # Tambah like
-        pass
     if action == "like":
         data["likes"] += 1
 
