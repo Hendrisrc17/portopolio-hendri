@@ -480,10 +480,10 @@ img {
 }
 
 /* CTA section */
-.section-cta {
+/*.section-cta {
     background: #f7f7f7;
-    border-top: 1px solid rgba(0, 0, 0, 0.03);
-}
+    border-top: 1px solid rgba(255, 255, 255, 0.03);
+}*/
 
 .section-cta .container {
     text-align: center;
@@ -505,8 +505,8 @@ img {
     max-width: 340px;
     padding: 0.8rem 1rem;
     border-radius: 999px;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    background: #ffffff;
+    border: 1px solid rgb(179, 18, 18);
+    background: #fff5f5;
     font-size: 0.9rem;
     outline: none;
 }
