@@ -1,4 +1,3 @@
-// ========== MOBILE NAV TOGGLE ==========
 const navToggle = document.getElementById("nav-toggle");
 const navLinks = document.getElementById("nav-links");
 
@@ -8,7 +7,7 @@ if (navToggle && navLinks) {
         navLinks.classList.toggle("open");
     });
 
-    // Close menu when clicking link (mobile)
+    
     navLinks.querySelectorAll("a").forEach((link) => {
         link.addEventListener("click", () => {
             navToggle.classList.remove("active");
@@ -17,7 +16,7 @@ if (navToggle && navLinks) {
     });
 }
 
-// ========== PARALLAX EFFECT ==========
+
 const parallaxEls = document.querySelectorAll(".parallax");
 
 window.addEventListener("scroll", () => {
@@ -29,11 +28,11 @@ window.addEventListener("scroll", () => {
     });
 });
 
-// ========== 3D HOVER TILT FOR CARDS ==========
+
 const tiltCards = document.querySelectorAll(".card-3d");
 
 tiltCards.forEach((card) => {
-    const strength = 12; // semakin besar, semakin miring
+    const strength = 12; 
 
     card.addEventListener("mousemove", (e) => {
         const rect = card.getBoundingClientRect();
@@ -58,7 +57,7 @@ tiltCards.forEach((card) => {
     });
 });
 
-// ========== AOS INIT ==========
+
 if (typeof AOS !== "undefined") {
     AOS.init({
         duration: 800,
@@ -68,7 +67,7 @@ if (typeof AOS !== "undefined") {
     });
 }
 
-// -------- MOBILE BOTTOM NAV ACTIVE STATE --------
+
 const mobileItems = document.querySelectorAll(".mobile-item");
 
 mobileItems.forEach(item => {
@@ -78,7 +77,6 @@ mobileItems.forEach(item => {
     });
 });
 
-// -------- HIGHLIGHT NAV WHEN SCROLL --------
 window.addEventListener("scroll", () => {
     const scrollPos = window.scrollY;
 
@@ -92,11 +90,11 @@ window.addEventListener("scroll", () => {
     });
 });
 
-/* FLIP CARD MOBILE */
+
 const flip = document.querySelector(".home-flip");
 flip.addEventListener("click", () => flip.classList.toggle("flip-mobile"));
 
-/* TYPING EFFECT */
+
 const texts = [
     "Hi, I'm Hendri",
     "AI Engineer",
@@ -129,7 +127,6 @@ function typeEffect() {
 
 typeEffect();
 
-// Optional: animate skill bars when resume enters viewport
 document.addEventListener("DOMContentLoaded", () => {
     const bars = document.querySelectorAll(".skill-bar span");
 
@@ -174,8 +171,6 @@ slider.addEventListener('mousemove', (e) => {
 });
 
 
-// Update Views
-// Update Views
 fetch("/api/handler?action=view")
     .then(res => res.json())
     .then(data => {
